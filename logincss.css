@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  background-image: url("resimler/pxfuel.jpg");
+
+}
+
+.login-wrapper {
+  width: 600px;
+  height: 450px;
+  border: 2px black solid;
+  margin-top: 160px;
+  margin-left: 670px;
+  background-color: rgb(46, 9, 1);
+  border-radius: 40px;
+}
+.login-wrapper:hover{
+  transition: 1s ;
+  border: 5px rgb(255, 0, 0) solid;
+}
+.login-head {
+  height: 100px;
+  width: 99.9%;
+  border: 2px black solid;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  border-radius: 40px;
+}
+.login-text {
+  font-size: 60px;
+  color: white;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  display: inline-block;
+
+}
+.login-username {
+  height: 40px;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 40px;
+  font-size: 30px;
+
+}
+.login-password {
+  height: 40px;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 30px;
+
+}
+.login-btn-wrapper {
+  width: 100vh;
+  margin-top: 20px;
+
+}
+.login-btn {
+  margin-left: 40px;
+  font-size: larger;
+  width: 150px;
+  border-radius: 20%;
+
+}
+.Password-help-btn {
+  margin-left: 200px;
+  width: 150px;
+  font-size: larger;
+  border-radius: 20%;
+}
